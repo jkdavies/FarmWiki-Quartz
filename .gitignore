@@ -9,3 +9,8 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+# build artifacts / runtime cruft (build driven by sibling FarmWiki/build_if_changed.sh)
+.build.lock
+.last-built-head
+logs/
+*.bak
